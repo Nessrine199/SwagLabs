@@ -9,6 +9,4 @@ Feature: Login into Swag Labs wwebsite
     And I add password 
     And I click on Login button 
     Then I am logged in the swag Labs website
-    And I am redirected to the internal page of swagLabs
-
- 
+    And I am redirected to the internal page

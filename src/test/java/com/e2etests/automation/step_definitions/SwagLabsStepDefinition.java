@@ -49,7 +49,7 @@ public class SwagLabsStepDefinition {
 	   
 	}
 	
-	@Then("I am redirected to the internal page of swagLabs")
+	@Then("I am redirected to the internal page")
 	public void jeMeRedergieVersLaPageInterneDeSwagLabs() throws InterruptedException {
 	Thread.sleep(3000);
 	seleniumUtils.get(configFileReader.getProperties("redirection.url"));
